@@ -71,9 +71,21 @@ This project explores how venue data can be transformed into actionable insights
 
 ---
 
-## 🎨 UI Design Preview
+## 🎨 UI Design
 
-> (Replace with your screenshots)
+The dashboard interface was designed to support venue managers in analysing event performance and operational insights.
+
+### Screenshots
+
+![Dashboard](./design/dashboard.png)
+![Reports](./design/Reports.png)
+![Insights](./design/Insights.png)
+![Calendar](./design/Calendar.png)
+![Artists](./design/Artists.png)
+
+### Interactive Prototype
+Figma Prototype:
+[Paste your Figma link here]
 
 ### Dashboard
 ![Dashboard](./design/dashboard.png)
