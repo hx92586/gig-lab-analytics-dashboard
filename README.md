@@ -1,129 +1,72 @@
 # Gig Lab Analytics Dashboard (Bootcamp Project)
 
-This project was developed during the **Spring 2026 Data Innovation Bootcamp (NICD, Newcastle University)**.
+This project was developed during the **Spring 2026 Data Innovation Bootcamp (Newcastle University)**.
 
-It focuses on analysing live music venue data and designing a **data-driven dashboard + AI-assisted interface** to support venue managers and promoters in making operational and commercial decisions.
+It focuses on analysing live music venue data and designing a **data-driven dashboard + interactive UI prototype** to support venue managers and promoters in making operational and commercial decisions.
 
 ---
 
 ## 🚀 Project Overview
 
-Gig Lab is a platform connecting stakeholders in the live music ecosystem.  
-This project explores how venue data can be transformed into actionable insights through:
+Gig Lab is a data-driven analytics platform designed for stakeholders in the live music ecosystem.
 
-- Data analysis (EDA)
-- Business-focused insights
-- Product design (dashboard system)
-- UI/UX prototyping
+The project explores:
 
----
-
-## 📊 Key Insights (from data analysis)
-
-- Weekend events (especially Saturday) generate the highest **bar revenue**
-- Late-night shows (after 10pm) dominate event distribution
-- Revenue distribution is highly skewed (few events drive most income)
-- Operational issues (equipment, queues) correlate with lower performance
-- Audience behaviour (movement, crowd density) impacts bar spend
+- Venue performance (attendance, revenue, capacity utilisation)
+- Event timing patterns (weekday vs weekend, late-night trends)
+- Audience behaviour and engagement
+- Operational insights for improving event success
 
 ---
 
-## 🧠 Key Features
+## 📊 Key Features
 
-### 1. Data Analysis
-- Explored venue performance:
-  - Attendance vs capacity
-  - Bar revenue distribution
-  - Event timing patterns
-- Identified operational patterns across events
+- Exploratory Data Analysis (EDA) on real-world event data
+- Visualisation of sales, attendance, and time patterns
+- Insight generation for business decision-making
+- Dashboard-oriented thinking (not just charts, but decisions)
 
 ---
 
-### 2. Dashboard UI Design
-- Designed a **SaaS-style analytics dashboard**
-- Key modules:
-  - Dashboard (KPIs + trends)
-  - Reports (event-level breakdown)
-  - Insights (aggregated analytics)
-  - Artist profiles (performance comparison)
+## 🎨 UI Design (Figma Prototype)
+
+👉 View interactive prototype:  
+🔗 https://www.figma.com/make/MDV4kabQzdOAFCW4RPdR1r/Web-Dashboard-for-Gig-Lab?fullscreen=1&t=x0lLG5WwGn4mSnkw-1&preview-route=%2Fprofile
+
+The UI design focuses on:
+
+- Clean dashboard layout for quick decision-making
+- Modular components (Reports, Insights, Artists, Calendar)
+- Data-to-decision flow (not just display)
+- User-friendly filtering and interaction
 
 ---
 
-### 3. AI Query Interface ("Ask Gig Lab")
-- Natural language query system for event data
-- Example queries:
-  - "Which show had the highest bar spend?"
-  - "What events had operational issues?"
-- Designed as:
-  - Floating chat (real product pattern)
-  - Not a primary navigation page
-
----
-
-### 4. Operational Analytics (Core Innovation)
-- Extended traditional reports with:
-  - Event context (weather, indoor/outdoor, special events)
-  - Operational issues (queues, equipment, delays)
-  - Infrastructure impact (damage, repair cost)
-  - Smoking area behaviour analysis
-
-👉 Transforms reports from **data logs → decision tools**
-
----
-
-## 🎨 UI Design
-
-The dashboard interface was designed to support venue managers in analysing event performance and operational insights.
-
-### Screenshots
-
-![Dashboard](./design/dashboard.png)
-![Reports](./design/Reports.png)
-![Insights](./design/Insights.png)
-![Calendar](./design/Calendar.png)
-![Artists](./design/Artists.png)
-
-### Interactive Prototype
-Figma Prototype:
-[Paste your Figma link here]
+## 🖥️ UI Screenshots
 
 ### Dashboard
-![Dashboard](./design/dashboard.png)
+![Dashboard](dashboard.png)
 
-### Event Report Modal
-![Report](./design/report.png)
+### Reports
+![Reports](reports.png)
 
-### Ask Gig Lab Interface
-![Ask](./design/ask.png)
+### Insights
+![Insights](insights.png)
 
----
+### Artists
+![Artists](artists.png)
 
-## 🧑‍💻 My Contribution
-
-- Designed full dashboard product structure
-- Built UI prototype (HTML / Figma)
-- Defined business-oriented metrics and reporting logic
-- Extended system with operational & infrastructure insights
-- Integrated AI-style query interaction concept
+### Calendar
+![Calendar](calendar.png)
 
 ---
 
-## ⚠️ Note
+## 🧠 Key Insight
+
+This project bridges **data analysis + product thinking + UI design**, demonstrating how data can be transformed into actionable insights through an intuitive interface.
+
+---
+
+## 📌 Note
 
 The dataset used in this project was provided as part of the bootcamp and has been anonymised.
-
-This repository includes:
-- UI prototypes
-- Derived insights
-- Design concepts
-
-It does NOT include raw data.
-
----
-
-## 🛠 Tech / Tools
-
-- Python (EDA)
-- Jupyter Notebook
-- Figma (UI design)
-- HTML/CSS (prototype)
